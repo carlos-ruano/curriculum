@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'helvetica';
+}
+.flex-horizontal{
+    display: flex;
+    width: 100%;
+}
+.encabezado{
+    width:100rem;
+    height: 25rem;
+    align-items: center;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    color: #3E434a;
+    font-family: 'roboto';
+    font-size: x-large;
+}
+.subencabezado{
+    font-family: 'roboto Slab';
+    font-weight: 100;
+}
+#lateral{
+    width: 20rem;
+    padding: 3rem;
+    background-color: #3E434a;
+}
+.color-letra-rosa{
+    color: #eaaaa0;
+}
+.color-letra-blanca{
+    color:#fafafa;
+}
+.color-letra-gris{
+    color:#919191;
+}
+.imagen{
+    width: 100%;
+    border-radius: 100%;
+
+}
+.contenedor-foto{
+    margin-bottom: 4rem;
+}
+.espaciado-top-bottom{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size:  large;
+}
